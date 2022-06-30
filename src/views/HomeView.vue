@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <Ebtn variant="success">I am a btn</Ebtn>
+    <Ebtn variant="secondary"  size="">I am a btn</Ebtn>
   </div>
 </template>
 
