@@ -1,9 +1,7 @@
 <template>
-  <div>
-    <button class="btn" :style="cssVars">
-      <slot/>
-    </button>
-  </div>
+  <button class="btn" :style="cssVars">
+    <slot/>
+  </button>
 </template>
 
 <script>
