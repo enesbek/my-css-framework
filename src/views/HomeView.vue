@@ -1,17 +1,20 @@
 <template>
   <div class="home">
-    <Ebtn variant="secondary" size="">I am a btn</Ebtn>
+    <Ebtn variant="danger" size="lg" squared>I am a btn</Ebtn>
+    <br/>
+    <Einput variant="danger" squared></Einput>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
 import Ebtn from '@/components/Ebtn.vue'
+import Einput from '@/components/Einput.vue'
 
 export default {
   name: 'HomeView',
   components: {
-    Ebtn
+    Ebtn,
+    Einput
   }
 }
 </script>

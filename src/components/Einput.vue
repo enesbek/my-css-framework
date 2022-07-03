@@ -1,7 +1,5 @@
 <template>
-  <button id="ebtn" class="btn" :style="cssVars">
-    <slot/>
-  </button>
+  <input class="w-24 border border-black" />
 </template>
 
 <script>
