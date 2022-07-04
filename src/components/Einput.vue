@@ -1,5 +1,6 @@
 <template>
-  <input class="w-24 border border-black" />
+  <input class="input"/>
+  Hello
 </template>
 
 <script>
@@ -40,13 +41,13 @@ export default {
       
       switch(this.size) {
         case "sm":
-          size = 0.5 + "em " + 0.75 + "em";
+          size = 20 + "px";
           break;
         case "lg":
-          size = 1 + "em " + 1.5 + "em";
+          size = 40 + "px";
           break;
         default:
-          size = 0.7 + "em " + 1.1 + "em";
+          size = 30 + "px";
       }
     
       if(this.pill) {
@@ -71,12 +72,12 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-.btn{
+.input{
   cursor: pointer;
   background-color: var(--color);
-  padding: var(--size);
+  width: var(--size);
   border-radius: var(--rounded);
-  @apply font-semibold tracking-wide text-white;
+  @apply font-semibold tracking-wide text-white border-2 border-black;
 }
 
 </style>
